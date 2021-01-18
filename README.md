@@ -1,0 +1,1 @@
+First project of The Odin Project. Rebuilding google homepage using HTML and CSS.
