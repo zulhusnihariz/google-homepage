@@ -1,0 +1,167 @@
+
+
+.header{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgreen; */
+}
+
+nav {
+    margin-top: 20px;
+    padding: 0px 25px;
+    font-size: small;
+    text-align: center;
+}
+
+
+ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 14px;
+}
+
+body{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+main{
+    text-align: center;
+    /* background-color: lightblue; */
+    /* justify-content: center; */
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 70%; 
+
+}
+
+a{
+    color: rgb(32,33,36);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+button {
+    border-style: none;
+    background-color:  rgb(248,249,250);
+    color:rgb(32,33,36);
+    padding: 10px 15px 10px 15px;
+    opacity: 0.75;
+}
+
+
+span {
+    /* flex: 0 0 32%; */
+    width: 4px;
+    height: 4px;
+    color:#7A7A7A;
+    background-color: #7A7A7A;
+    margin: 0.5px;
+  }
+
+
+.main-div{
+    position: relative;
+    /* background-color: black; */
+    top: 15%;
+    height: 50%;
+}
+
+
+#mag-glass {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: green;
+
+}
+
+#input-button {
+    margin-top: 30px;
+}
+
+#link-lang {
+    color: blue;
+    font-size: 12px;
+}
+
+#google-apps{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 19px;
+    width: 19px;
+}
+
+#google-acc{
+    /* position: relative; */
+    background-color: rgb(1, 87, 155);
+    color: white;
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    /* font-size: 28px; */
+    border: 2px solid rgb(1, 87, 155);
+    border-radius: 50%;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+#img-div{
+    margin: auto;
+
+}
+
+#logo{
+    width: 265px;
+    height: 85px;
+    margin-top: 50px;
+}
+
+#search-input{
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    
+
+    
+}
+
+#search-bar {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid #dfe1e5;
+    background-color: transparent;
+}
+
+#search-bar:hover, button:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+#search-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}

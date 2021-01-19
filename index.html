@@ -3,26 +3,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Google</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li id = "google-apps"></li>
-            <li id = "google-acc"></li>
-        </ul>
+    <header class = "header">
+        <nav>
+            <ul>
+                <li> <a href="">Gmail</a> </li>
+                <li> <a href="">Images</a> </li>
+                <li id = "google-apps"> 
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> </li>
+                <li id = "google-acc-container"><a id = "google-acc" href="">Z</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <img src="img/368px-Google_2015_logo.png" alt="Google logo">
-        <input id = "search-bar"type="text">
-        <button>Google Search</button>
-        
-        <button>I'm Feeling Lucky</button>
-
-        <p>Google offered in: <a href="#">Melayu</a></p>
+        <div class = "main-div">
+            <div id = "img-div">
+                <img id = "logo" src="img/368px-Google_2015_logo.png" alt="Google logo">
+            </div>
+            <div id = "input-button">
+                <div id = "search-bar">
+                    <img id = "mag-glass" src="img/mag-glass.jpeg" alt="magnifying glass">
+                    <input id = "search-input" type="text">
+                </div>
+                <div id = "search-button">
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+            </div>
+            <p>Google offered in: <a id = "link-lang" href="#">Melayu</a></p>
+        </div>
     </main>
     
 </body>
